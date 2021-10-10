@@ -1,0 +1,20 @@
+.Vector_image{
+    background-image: url(./img/catalog-background1.jpg);
+    width:1200px;
+    height:410px;
+}
+.background{
+    background-image: url(./img/background.jpg);
+    height:410px;
+    width:1200px;
+}
+.Vector_image1{
+    background-image: url(./img/Первыйэкран.jpg);
+    width: 1200px;
+    height: 485px;
+}
+.Vector_image3{
+    background-image: url(./img/sedona.png);
+    width: 140px;
+    height: 70px;
+}
