@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
@@ -10,29 +10,29 @@
      <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a href="index.html" class="navigation-link">Главная</a>
+            <a class="navigation-link" href="index.html" >Главная</a>
           </li>
           <li class="navigation-item">
-            <a href="about.html" class="navigation-link">О Седоне</a>
+            <a class="navigation-link" href="about.html" >О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a href="hotels.html" class="navigation-link">Гостиницы</a>
+            <a class="navigation-link" href="hotels.html" >Гостиницы</a>
           </li>
         </ul>
         <div class="Vector_image3"></div>
         <ul>
-          <li class="navigation-user">
+          <li class="navigation-user search">
             <a href="#" class="navigation-link">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item heart">
             <a href="#Избранное" class="navigation-link">
               <span class="visually-hidden">Избранное</span>
             </a>
           </li>
           <li class="navigation-item">
-            <a href="#" class="navigation-link">
+            <a href="#" class="navigation-link button-link">
               <span class="visually-hidden">Хочу сюда</span>
             </a>
           </li>
@@ -51,13 +51,13 @@
       </section>
       <section>
         <h2 class="visually-hidden">О городке</h2>
-        <p>СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО</p>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        <p class="strong">СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО</p>
+        <p class="reasons">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </section>
       <section class="Dignities">
         <h2 class="visually-hidden">Достоинства</h2>
         <ul class="Dignities-list">
-          <li class="Dignities-item">
+          <li class="Dignities-item1">
             <img src="img/photo-1.jpg" width="800" height="385" alt="Город">
             <h3 class="Dignities-title">Настоящий городок</h3>
             <p>— №1 — <br>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
@@ -77,7 +77,7 @@
             <h3 class="Dignities-title">Сувениры</h3>
             <p>Не только китайского, но и настоящего местного производства!</p>
           </li>
-          <li class="Dignities-item">
+          <li class="Dignities-item2">
             <img src="img/photo-2.jpg" width="800" height="385" alt="Мост дьявола">
             <h3 class="Dignities-title">Там есть мост дьявола</h3>
             <p>— №2 — <br>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
@@ -99,9 +99,9 @@
       <section class="search_for_hotels">
         <h2 class="visually-hidden">Поиск гостиниц</h2>
         <h3 class="search_for_hotels-title">Заинтересовались?</h3>
-        <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <p class="Point_out">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <form  action="hotels.html">
-          <p><input type="submit" value="ПОИСК ГОСТИНИЦЫ В СЕДОНЕ"></p>
+          <p><input class="button-link1"  type="submit" value="ПОИСК ГОСТИНИЦЫ В СЕДОНЕ"></p>
         </form>
       </section>
     </main>
@@ -110,24 +110,24 @@
         <div class="background"></div>
         <h2 class="visually-hidden">Подписаться</h2>
         <h3 class="page-footer-title">Подпишитесь на рассылку</h3>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p class="wythe">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form  action="https://echo.htmlacademy.ru/">
-          <input type="text" name="appointment-e-mail" placeholder="Ваш e-mail">
-          <p><input type="submit" value="Подписаться"></p>
+          <input class="e-mail" type="text" name="appointment-e-mail" placeholder="Ваш e-mail">
+          <p><input class="button-link2" type="submit" value="Подписаться"></p>
         </form>
       </section>
       <ul class="footer-social-list">
-        <li class="footer-social-item">
+        <li class="footer-social-item twitter">
           <a class="button" href="https://twitter.com/htmlacademy_ru">
             <span class="visually-hidden">Twitter</span>
           </a>
         </li>
-        <li class="footer-social-item">
+        <li class="footer-social-item facebook">
           <a class="button" href="https://www.facebook.com/htmlacademy">
             <span class="visually-hidden">Facebook</span>
           </a>
         </li>
-        <li class="footer-social-item">
+        <li class="footer-social-item youtube">
           <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
             <span class="visually-hidden">Youtube</span>
           </a>
@@ -136,7 +136,7 @@
       <address class="contacts-address">
         <a class="contacts-phone" href="tel:+78128121212"><b>+7 (812) 812-12-12</b></a>
       </address>
-      <a class="htmlacademy-link" href="https://htmlacademy.ru">.html academy</a>
+      <a class="visually-hidden htmlacademy-link" href="https://htmlacademy.ru">.html academy</a>
     </footer>
   </body>
 </html>
