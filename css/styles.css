@@ -1,72 +1,72 @@
-@font-face{
+@font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
     src: url(../fonts/ptsans-400.woff2);
     font-display: swap;
 }
-@font-face{
+@font-face {
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
     src: url(../fonts/ptsans-700.woff2);
     font-display: swap;
 }
-body{
+body {
     font-family: "PT Sans";
     font-size: 18px; 
     line-height: 21px;
     color: #333333;
     background: #FFFFFF;   
 }
-.page-header{
+.page-header {
     font-size: 20px;
     line-height: 26px;
     text-decoration: none;
     text-transform: uppercase;
 }
-.navigation-link{
-    font-size :20px;
+.navigation-link {
+    font-size: 20px;
     line-height: 26px;
     color: #333333;
     background: #FFFFFF; 
 }
-.button-link{
+.button-link {
     width: 160px;
     height: 37px;
     color: #FFFFFF;
     background-color: #756257;
     } 
-.strong{
+.strong {
     width: 720px;
     height: 80px;
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
 }
-.reasons{
+.reasons {
     font-size: 22px;
     line-height: 36px;
 }
-.Dignities-item1{
-    color:#FFFFFF;
+.dignities-item1 {
+    color: #FFFFFF;
     background: #83B3D3;
 }
-.Dignities-title{
+.dignities-title {
     font-size: 24px;
     line-height: 28px; 
 }
-.Dignities-item2{
-    color:#FFFFFF;
+.dignities-item2 {
+    color: #FFFFFF;
     background: #83B3D3;
 }
-.Point_out{
+.point_out {
     font-size: 22px;
     line-height: 26px;
-    Width: 720px;
-    Height: 37px;
+    width: 720px;
+    height: 37px;
 }
-.button-link1{
+.button-link1 {
     font-size: 20px;
     line-height: 36px;
     width: 575px;
@@ -74,25 +74,25 @@ body{
     color: #FFFFFF;
     background-color: #756257;
     } 
-.search_for_hotels-title{
+.search_for_hotels-title {
     font-size: 30px;
     line-height: 36px;
 }
-.page-footer-title{
+.page-footer-title {
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
     background-image: url(../img/background.jpg);
 }
-.wythe{
+.wythe {
     font-size: 22px;
     line-height: 26px;
     color: #FFFFFF;
     background-image: url(../img/background.jpg);
-    Width :720px;
-    Height :72px;
+    width: 720px;
+    height: 72px;
 }
-.button-link2{
+.button-link2 {
     font-size: 20px;
     line-height: 26px;
     width: 200px;
@@ -101,17 +101,17 @@ body{
     color: #FFFFFF;
     background-color: #83B3D3;
 }
-.e-mail{
+.e-mail {
     font-size: 18px;
     line-height: 26px;
     color: #000000;
     background-color: #F2F2F2;
 }
-.contacts-phone{
+.contacts-phone {
     font-size: 40px;
     line-height: 40px;
-    Width: 720px;
-    Height: 50px;
+    width: 720px;
+    height: 50px;
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
@@ -119,150 +119,150 @@ body{
     font-style: normal;
     font-weight: normal;   
 }
-.htmlacademy-link{
+.htmlacademy-link {
     background-image: url(../img/logo_htmlacademy.svg);
-    width:1200px;
-    height:120px;
+    width: 1200px;
+    height: 120px;
 }
 .inner-header,
-.catalog-products{
+.catalog-products {
     color: #FFFFFF;
     background-image: url(../img/catalog-background1.jpg);
 
 }
-.apply{
+.apply {
     color: #FFFFFF;
     background-color: #83B3D3; 
 }
-.reset{
+.reset {
     font-size: 18px;
     line-height: 23px;
-    Width: 160px;
-    Height: 23px;
+    width: 160px;
+    height: 23px;
     color: #FFFFFF;
     background-image: url(../img/catalog-background1.jpg);
 }
-.hotels-found{
+.hotels-found {
     font-size: 30px;
     line-height: 39px;
-    Width: 337px;
-    Height: 39px;
+    width: 337px;
+    height: 39px;
 }
-.hotels-card-type{
+.hotels-card-type {
     font-size: 18px;
     line-height: 23px;
-    Width: 57px;
-    Height: 23px;
+    width: 57px;
+    height: 23px;
 }
-.hotels-card-title{
+.hotels-card-title {
     font-size: 24px;
     line-height: 31px;
-    Width: 208px;
-    Height: 31px;
+    width: 208px;
+    height: 31px;
 }
-.catalog-filted-title{
+.catalog-filted-title {
     font-size: 20px;
     line-height: 26px;
 }
-.rating{
-    Font-style: "Regular";
-    Font-size: 16px;
+.rating {
+    font-style: "normal";
+    font-size: 16px;
     line-height: 26px;
 }
-.button_more_detailed{
+.button_more_detailed {
     color: #FFFFFF;
     background-color: #756257;
-    Width: 151px;
-    Height: 18px; 
+    width: 151px;
+    height: 18px; 
 }
-.button_favourites_green{
+.button_favourites_green {
     color: #FFFFFF;
     background-color: #7DB54F;
 }
-.button_favourites{
+.button_favourites {
     color: #FFFFFF;
     background-color: #83B3D3;
 }
-.blue{
-    Font-size: 20px;
+.blue {
+    font-size: 20px;
     line-height: 26px;
     text-decoration: none;
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: #83B3D3;
 }
-.Vector_image{
+.vector_image {
     background-image: url(../img/catalog-background1.jpg);
-    width:1200px;
-    height:410px;
+    width: 1200px;
+    height: 410px;
 }
-.background{
+.background {
     background-image: url(../img/background.jpg);
-    height:410px;
-    width:1200px;
+    height: 410px;
+    width: 1200px;
 }
-.Vector_image1{
+.vector_image1 {
     background-image: url(../img/index-background.jpg);
     width: 1200px;
     height: 485px;
 }
-.Vector_image3{
+.vector_image3 {
     background-image: url(../img/sedona.svg);
     width: 140px;
     height: 70px;
 }
-.Vector_image11{
+.vector_image11 {
     background-image: url(../img/welcome.svg);
     width: 450px;
     height: 350px;
 }
-.Vector_image111{
+.vector_image111 {
     background-image: url(../img/divider.svg);
     width: 1200px;
     height: 60px;
 }
-.search{
+.search {
     background-image: url(../img/search.svg);
     width: 18px;
     height: 18px;
 }
-.heart{
+.heart {
     background-image: url(../img/heart.svg);
     width: 18px;
     height: 18px;
 }
-.twitter{
+.twitter {
     background-image: url(../img/twitter.svg);
     width: 18px;
     height: 15px;
 }
-.facebook{
+.facebook {
     background-image: url(../img/facebook.svg);
     width: 10px;
     height: 18px;
 }
-.youtube{
+.youtube {
     background-image: url(../img/youtube.svg);
     width: 20px;
     height: 16px;
 }
-.home{
+.home {
     background-image: url(../img/home1.svg);
     width: 12px;
     height: 12px;
 }
-.Group3{
+.group3 {
     background-image: url(../img/Group3.svg);
-    width:50px;
+    width: 50px;
     height: 50px;
 }
-.Group2{
+.group2 {
     background-image: url(../img/Group2.svg);
-    width:50px;
+    width: 50px;
     height: 50px;
 }
-.Group1{
+.group1 {
     background-image: url(../img/Group1.svg);
-    width:50px;
+    width: 50px;
     height: 50px;
 }
