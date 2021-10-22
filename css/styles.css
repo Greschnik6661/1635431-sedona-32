@@ -62,11 +62,20 @@ body {
     width: 100%;
     align-items: center
   }
-  .main-inner {
+.main-inner {
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: center  
+    align-items: center; 
+  }
+.visually-hidden {
+    display: none; 
+  }
+.main-inner1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 .dignities {
     display: flex;
@@ -106,7 +115,7 @@ body {
     display: flex;
     margin: 0 auto;
     padding: 0;
-    width: 100%;
+    justify-content: space-between;
 }
 .reasons {
     font-size: 22px;
@@ -121,7 +130,7 @@ body {
     width: 400px;
     margin: 0;
     padding: 0; 
-    justify-content: center;
+    justify-content: space-between;
 }
 .categories__item {
     display: flex;
@@ -179,7 +188,7 @@ body {
     color: #FFFFFF;
     background-color: #756257;
     justify-content: center;
-    } 
+} 
 .right{
     display: flex;
     margin: 0;
@@ -206,9 +215,10 @@ body {
     justify-content: end;
 }
 .hotels-card_img {
-    display: flex;
+    display: block;
     margin-right: 0;
     padding: 0;
+    justify-content: space-between;
 }
 .search_for_hotels {
     display: flex;
@@ -282,10 +292,20 @@ body {
     background-image: url(../img/catalog-background1.jpg);
 }
 .hotels-found {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
     font-size: 30px;
     line-height: 39px;
     width: 337px;
     height: 39px;
+}
+.pagination {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
 }
 .hotels-card-type {
     font-size: 18px;
@@ -327,6 +347,23 @@ body {
 .button_favourites {
     color: #FFFFFF;
     background-color: #83B3D3;
+}
+.page-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+.group {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+    padding: 0;
+}
+.plagination-item {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 0;
+    padding: 0;
 }
 .blue {
     display: flex;
