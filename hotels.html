@@ -112,8 +112,8 @@
               <div>
                 <fieldset class="catalog-filted-group">
                   <legend class="catalog-filted-title">Стоимость, ₽:</legend>
-                  <button class="range-toggle toggle-min visually-hidden button" type="button">Изменить минимальную стоимость.</button>
-                  <button class="range-toggle toggle-max visually-hidden button" type="button">Изменить максимальную стоимость.</button>
+                  <button class="range-toggle toggle-min button" type="button">Изменить минимальную стоимость.</button>
+                  <button class="range-toggle toggle-max button" type="button">Изменить максимальную стоимость.</button>
                   <label class="catalog-filted-label" >
                     <input class="catalog-filted-input" type="number" name="min-price">от
                   </label>
@@ -132,7 +132,7 @@
       <div class="found">
         <h2 class="hotels-found">Найдено гостиниц: 38</h2>
         <form class="sorting-type">
-          <label class="select-control" for="sorting">Сортировка</label>
+          <label class="select-control visually-hidden" for="sorting">Сортировка</label>
           <select class="select-control" id="sorting" name="sortyng">
             <option value="popular">Сначала популярные</option>
             <option value="cheap">Сначала дешёвые</option>
@@ -141,13 +141,19 @@
         </form>
         <ul class="group">
           <li class="group3">
-            <a href="#" class="visually-hidden button">Показать карточками</a>
+            <a href="#" class="button">
+              <span class="visually-hidden">Показать карточками</span>
+            </a>
           </li>
           <li class="group2">
-            <a href="#" class="visually-hidden button">Показать таблицей</a>
+            <a href="#" class="button">
+              <span class="visually-hidden">Показать таблицей</span>
+            </a>
           </li>
           <li class="group1">
-            <a href="#" class="visually-hidden button">Показать списком</a>
+            <a href="#" class="button">
+              <span class="visually-hidden">Показать списком</span>
+            </a>
           </li>
         </ul>
       </div>
@@ -197,26 +203,26 @@
               </li>
             </ul>
           </div>
-          <a href="#" class="hotels-card-button">Загрузить ещё</a>
+          <a href="#" class="hotels-card-button1">Загрузить ещё</a>
           <div class="pagination">
             <ul class="pagination">
-              <li class="plagination-item">
+              <li class="plagination-item button1">
                 <a class="pagination-link pagination-current">1</a>
               </li>
-              <li class="plagination-item">
+              <li class="plagination-item button1">
                 <a class="hotels-card-button blue" href="#">2</a>
               </li>
-              <li class="plagination-item">
+              <li class="plagination-item button1">
                 <a class="hotels-card-button blue" href="#">3</a>
               </li>
-              <li class="plagination-item">
+              <li class="plagination-item button1">
                 <a class="hotels-card-button blue" href="#">4</a>
               </li>
-              <li class="plagination-item">
+              <li class="plagination-item button1">
                 <a class="hotels-card-button blue pagination-more" href="#">...</a>
               </li>
-              <li class="plagination-item">
-                <a class="hotels-card-button blue pagination-last" href="#">10</a>
+              <li class="plagination-item button1">
+                <a class="hotels-card-button blue pagination-last button1" href="#">10</a>
               </li>
             </ul> 
             <form class="hotels-card-displayed pagination">
@@ -268,7 +274,9 @@
         </div>
         <ul class="footer-social-list">
           <li class="footer-social-item htmlacademy-link">
-            <a class="visually-hidden htmlacademy-link" href="https://htmlacademy.ru">.html academy</a>
+            <a class="htmlacademy-link" href="https://htmlacademy.ru">
+              <span class="visually-hidden">.html academy</span>
+            </a>
           </li>
         </ul>
       </section>
