@@ -50,7 +50,6 @@ html {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    flex-wrap: wrap;
     text-align: center;
     margin: 0;
 }
@@ -124,27 +123,19 @@ html {
     flex-wrap: wrap;
 }
 
-.hotels-card-type {
-    margin-top: 30px;
-    margin-left: -245px;
+.popularity {
+    margin-left: auto;
 }
 
 .hotels-card-price {
     margin: 0px;
-    margin-top: 30px;
-    margin-left: 60px;
-}
-
-.main-container1 {
-    flex-grow: 1;
-    width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap;
+    margin-left: 80px;
 }
 
 .hotels-card_img {
     list-style-type: none;
     margin: 0;
+    width: 1000px;
 }
 
 .visually-hidden {
@@ -186,12 +177,19 @@ html {
 }
 
 .item {
-    width: 250px;
+    width: 400px;
+    padding-bottom: 80px;
+}
+
+.two {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .reasons {
     font-size: 22px;
     line-height: 36px;
+    margin-bottom: 80px;
 }
 
 .inner-header-title { 
@@ -199,20 +197,23 @@ html {
 }
 
 .dignities-item1 {
-    width: 100%;
-    width: 210px;
+    align-items: center;
+    padding-top: 100px;
     color: #FFFFFF;
     background: #83B3D3;
-    text-align: center;
-    margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 80px;
+}
+
+.categories__item {
+    display: flex;
+}
+
+.most {
+    display: flex;
 }
 
 .dignities-item2 {
     align-items: center;
-    width: 400px;
-    margin-left: auto;
+    padding-top: 100px;
     color: #FFFFFF;
     background: #83B3D3;
 }
@@ -273,6 +274,17 @@ html {
     padding: 5px;
 }
 
+.Amara {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.button3 {
+    margin: 0 px;
+    padding: 17px;
+}
+
 .wythe {
     font-size: 22px;
     line-height: 26px;
@@ -294,11 +306,10 @@ html {
 }
 
 .hotels-card-button {
-    color: #FFFFFF;
-    background-color: #83B3D3;
-    width: 130px;
-    height: 30px;
     text-align: center;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
 }
 
 .hotels-card-button1 {
@@ -308,7 +319,7 @@ html {
     display: flex;
     justify-content: space-around;
     width: 625px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 .found {
@@ -361,10 +372,6 @@ html {
     background-color: #83B3D3; 
 }
 
-.photo-1 {
-    margin-left: 400px;
-}
-
 .reset {
     color: #FFFFFF;
     background-image: url(../img/catalog-background1.jpg);
@@ -372,15 +379,15 @@ html {
 
 .hotels-found {
     font-size: 30px;
-    width: 337px;
     margin: 0;
-    margin-left: 230px;
+    margin-left: 70px;
+    margin-right: 190px;
 }
 
 .hotels-card {
     display: flex;
-    justify-content: space-around;
     margin-bottom: 30px;
+    align-items: center;
 }
 
 .select-control {
@@ -407,8 +414,6 @@ html {
     font-size: 24px;
     line-height: 31px;
     margin: 0;
-    margin-left: 40px;
-    width: 245px;
 }
 
 .catalog-filted-title {
@@ -419,44 +424,36 @@ html {
 .stars {
     margin: 0;
     height: 20px;
-    margin-top: 20px;
-    margin-left: 200px;
 }
 
 .rating {
     margin: 0;
-    margin-top: 70px;
+    margin-top: 35px;
     font-style: normal;
     font-size: 16px;
     line-height: 26px;
-    margin-left: -90px;
 }
 
 .button_more_detailed {
     color: #FFFFFF;
     background-color: #756257; 
-    margin-right: 10px;
-    margin-left: -220px;
-    margin-top: 86px;
 }
 
 .button_favourites_green {
     color: #FFFFFF;
     background-color: #7DB54F;
-    margin-top: 86px;
 }
 
 .button_favourites {
     color: #FFFFFF;
     background-color: #83B3D3;
-    margin-top: 86px;
 }
 
 .group {
     display: flex;
     margin: 0;
     list-style-type: none;
-    margin-right: 173px;
+    margin-left: 80px;
 }
 
 .blue {
@@ -535,20 +532,20 @@ html {
 
 .group3 {
     background-image: url(../img/Group3.svg);
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .group2 {
     background-image: url(../img/Group2.svg);
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .group1 {
     background-image: url(../img/Group1.svg);
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
