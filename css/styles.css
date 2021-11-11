@@ -24,6 +24,9 @@ body {
     font-size: 18px; 
     line-height: 21px;
     align-content: space-around;
+    box-shadow:  #E5E5E5;
+    background-color: white;
+    color: white;
 }
 
 html {
@@ -35,6 +38,7 @@ html {
     width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
+    padding: 0;
 }
 
 .dignities-items {
@@ -71,20 +75,19 @@ html {
     list-style-type: none;
     flex-wrap: wrap;
     display: flex;
-    margin-left: 64px;
+    margin-left: 21px;
 }
 .footer-social-list1 {
     list-style-type: none;
     flex-wrap: wrap;
     display: flex;
-    margin-right:31px;
-    margin-top: 25px;
+    margin-right:73px;
 }
 .navigation-list {
     margin: 0;
     padding: 0;
     padding-top: 29px;
-    padding-left: 110px;
+    padding-left: 70px;
     padding-bottom: 20px;
     display: flex;
     max-width: 415px;
@@ -97,18 +100,20 @@ html {
     margin: 0;
     padding: 0;
     display: flex;
-    padding-right: 32px;
     list-style-type: none;
     flex-wrap: wrap;
     align-items: center;
+    margin-right: 64px;
+    margin-top: 3px;
 }
 
 .vector_image3 {
     background-image: url(../img/sedona.svg);
     background-repeat: no-repeat;
-    padding-right: 193px;
     height: 70px;
-    margin-top: 8px;
+    width: 138px;
+    margin-top: 10px;
+    margin-right: 56px;
 }
 
 .page-footer {
@@ -121,8 +126,7 @@ html {
 
 .text1 {
     margin-top: 1px;
-    margin-bottom: 47px;
-    margin-left: 73px;
+    margin-bottom: 41px;
 }
 
 .main-container {
@@ -191,7 +195,6 @@ html {
     border: none;
     align-items: center;
     margin-bottom: 30px;
-    margin-left: 88px;
 }
 
 .strong {
@@ -201,9 +204,8 @@ html {
     font-size: 30px;
     line-height: 36px;
     margin: 0 auto;
-    padding-top: 62px;
-    padding-bottom: 6px;
-    margin-left: 280px;
+    padding-top: 65px;
+    padding-bottom: 3px;
 }
 
 .navigation-link:hover,
@@ -327,7 +329,6 @@ html {
     font-size: 22px;
     line-height: 36px;
     margin-bottom: 80px;
-    margin-left: 84px;
 }
 
 .inner-header-title { 
@@ -355,7 +356,8 @@ html {
     font-size: 22px;
     line-height: 26px;
     width: 720px;
-    margin-bottom: 56px;
+    margin-bottom: 59px;
+    margin-right: 14px;
 }
 
 .button-link1 {
@@ -381,7 +383,7 @@ html {
     font-size: 30px;
     line-height: 36px;
     margin-top: 82px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .page-footer-title {
@@ -391,7 +393,6 @@ html {
     background-image: url(../img/background.jpg);
     margin-top: 92px;
     text-transform: uppercase;
-    margin-left: 50px;
 }
 
 .search_for_hotels {
@@ -400,7 +401,7 @@ html {
     flex-wrap: wrap;
     align-content: space-around;
     text-align: center;
-    margin-left: 78px;
+    margin-top: 4px;
 }
 
 .button {
@@ -436,7 +437,6 @@ html {
     padding: 0;
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: repeat(4, 385px);
-    margin-left: 39px;
 }
 
 .g1 {
@@ -601,7 +601,7 @@ html {
     line-height: 40px;  
     margin: auto;
     text-decoration: none; 
-    margin-left: 120px;
+    margin-left: 117px;
 }
 
 .academy {
@@ -742,8 +742,8 @@ html {
     width: 450px;
     margin: 0;
     padding: 0;
-    margin-top: 47px;
-    margin-left: 76px;
+    margin-top: 48px;
+    padding-right: 8px;
 }
 
 .navigation-link1 {
