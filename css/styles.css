@@ -303,7 +303,7 @@ html {
 }
 
 .contacts-phone:focus,
-.academy:focus  {
+.academy:focus {
     color:  #756257;
     background-color: #FFFFFF;
     outline: 3px solid #83B3D3;
@@ -794,7 +794,7 @@ html {
     height: 496px;
 }
 
-.vector{
+.vector {
     margin-top: 20px;
 }
 
