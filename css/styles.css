@@ -18,24 +18,25 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    min-width: 1336px;
     margin: 0;
     padding: 0;
     font-family: "PT Sans";
     font-size: 18px; 
     line-height: 21px;
     align-content: space-around;
-    box-shadow:  #E5E5E5;
-    background-color: white;
-    color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 html {
     height: 100%;
+    width: 1336px;
+    margin-left: 43px;
 }
 
 .navigation {
     display: flex;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     justify-content: space-between;
     padding: 0;
@@ -50,7 +51,7 @@ html {
 }
 
 .icon {
-    padding-top: 79px;
+    padding-top: 100px;
 }
 
 .dignities {
@@ -63,37 +64,40 @@ html {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 74px;
+    margin-top: 91px;
 }
 
 .navigation-item {
-    padding-left: 35px;
-    padding-right: 33px;
+    padding-left: 37px;
+    padding-right: 38px;
 }
 
 .footer-social-list {
     list-style-type: none;
     flex-wrap: wrap;
     display: flex;
-    margin-left: 21px;
+    margin-left: 30px;
 }
 .footer-social-list1 {
     list-style-type: none;
     flex-wrap: wrap;
     display: flex;
-    margin-right:73px;
+    margin-right:91px;
+    margin-top: 23px;
 }
 .navigation-list {
     margin: 0;
     padding: 0;
-    padding-top: 29px;
-    padding-left: 70px;
-    padding-bottom: 20px;
+    margin-top: 21px;
+    margin-left: 81px;
+    margin-bottom: 20px;
     display: flex;
     max-width: 415px;
     list-style-type: none;
     flex-wrap: wrap;
     text-transform: capitalize;
+    align-items: center;
+    margin-bottom: 18px;
 }
 
 .navigation-list1 {
@@ -103,17 +107,15 @@ html {
     list-style-type: none;
     flex-wrap: wrap;
     align-items: center;
-    margin-right: 64px;
-    margin-top: 3px;
+    margin-right: 80px;
+    margin-top: 4px;
 }
 
 .vector_image3 {
-    background-image: url(../img/sedona.svg);
-    background-repeat: no-repeat;
-    height: 70px;
-    width: 138px;
-    margin-top: 10px;
-    margin-right: 56px;
+    width: 165px;
+    height: 78px;
+    position: absolute;
+    right: 407px;
 }
 
 .page-footer {
@@ -121,19 +123,21 @@ html {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 1200px;
+    width: 100%;
+    padding: 0;
 }
 
 .text1 {
     margin-top: 1px;
-    margin-bottom: 41px;
+    margin-bottom: 79px;
 }
 
 .main-container {
     flex-grow: 1;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 .popularity {
@@ -165,10 +169,13 @@ html {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    height: 70px;
 }
 
 .navigation-link {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 26px;
     color: #333333;
     background: #FFFFFF;
@@ -201,11 +208,11 @@ html {
     width: 720px;
     height: 80px;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 33px;
+    line-height: 39px;
     margin: 0 auto;
-    padding-top: 65px;
-    padding-bottom: 3px;
+    margin-top: 69px;
+    margin-bottom: 36px;
 }
 
 .navigation-link:hover,
@@ -270,27 +277,27 @@ html {
 .e-mail:active {
     color: #000000;
     background: #FFFFFF;
-    border: 2px solid #000000;
+    outline: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 0px 10px 10px 0px;
 }
 
 .button-link2:focus {
-    border: 3px solid #756257;
+    outline: 3px solid #756257;
     border-radius: 0px 10px 10px 0px;
     color: #FFFFFF;
     background-color: #68A2CA;
 }
 
 .e-mail:focus {
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
     border-radius: 0px 10px 10px 0px;
     background: #E6E6E6;
     color: #000000;
 }
 
 .button:focus {
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -299,14 +306,14 @@ html {
 .academy:focus  {
     color:  #756257;
     background-color: #FFFFFF;
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
     box-sizing: border-box;
     border-radius: 10px;
 }
 
 .navigation-link:focus,
 .navigation-icon:focus {
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
     border-radius: 10px;
     color: #756257;
     background-color: white;
@@ -314,7 +321,7 @@ html {
  
 .button-link:focus,
 .button-link1:focus {
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
     border-radius: 10px;
     color: white;
     background-color: #615048;
@@ -326,9 +333,9 @@ html {
 }
 
 .reasons {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 36px;
-    margin-bottom: 80px;
+    margin-bottom: 89px;
 }
 
 .inner-header-title { 
@@ -344,30 +351,31 @@ html {
 
 .dignities-title {
     padding-top: 69px;
-    font-size: 24px;
-    line-height: 28px; 
+    font-size: 27px;
+    line-height: 30px; 
     font-weight: bold;
     font-style: normal;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 4px;
 }
 
 .point_out {
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 24px;
+    line-height: 28px;
     width: 720px;
-    margin-bottom: 59px;
-    margin-right: 14px;
+    margin-bottom: 66px;
+    margin-right: 8px;
 }
 
 .button-link1 {
     display: inline-block;
     border: none;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 36px;
     color: #FFFFFF;
     background-color: #756257;
-    padding: 12px 148px;
+    padding: 16px 165px;
     text-decoration: none; 
     border-radius: 10px;
     cursor: pointer;
@@ -380,10 +388,10 @@ html {
 
 .search_for_hotels-title {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 33px;
     line-height: 36px;
     margin-top: 82px;
-    margin-bottom: 8px;
+    margin-bottom: 13px;
 }
 
 .page-footer-title {
@@ -401,15 +409,15 @@ html {
     flex-wrap: wrap;
     align-content: space-around;
     text-align: center;
-    margin-top: 4px;
+    margin-top: 16px;
 }
 
 .button {
     border-radius: 5px;
-    padding-top: 8px;
-    padding-bottom: 6px;
-    padding-left: 31px;
-    padding-right: 42px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 45px;
+    padding-right: 47px;
     cursor: pointer;
 }
 
@@ -435,17 +443,30 @@ html {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    grid-template-columns: repeat(3, 400px);
-    grid-template-rows: repeat(4, 385px);
+    grid-template-columns: repeat(3, 445px);
+    grid-template-rows: repeat(4, 428px);
 }
 
 .g1 {
     color: #FFFFFF;
     background: #83B3D3;
-    padding-top: 72px;
-    padding-left: 75px;
-    padding-right: 75px;
-    width: 400px;
+    padding-top: 89px;
+    padding-left: 55px;
+    padding-right: 60px;
+    width: 336px;
+}
+
+.g1_0 {
+    margin: 0;
+    padding: 0;
+}
+
+.g1_1 {
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+    padding-top: 13px;
 }
 
 .g2 {
@@ -456,8 +477,8 @@ html {
 .g3 {
     color: #333333;
     background: rgba(131, 179, 211, 0.12);
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 33px;
+    padding-right: 30px;
 }
 
 .g4 {
@@ -484,13 +505,15 @@ html {
     padding-right: 75px;
     padding-top: 71px;
     width: 400px;
+    padding-top: 86px;
 }
 
 .g8 {
     color: #333333;
     background: rgba(131, 179, 211, 0.12);
-    padding-left: 75px;
+    padding-left: 76px;
     padding-right: 75px;
+    padding-top: 13px;
 }
 
 .g9 {
@@ -498,6 +521,7 @@ html {
     background: rgba(131, 179, 211, 0.2);
     padding-left: 75px;
     padding-right: 75px;
+    padding-top: 13px;
 }
 
 .g10 {
@@ -505,15 +529,48 @@ html {
     background: rgba(131, 179, 211, 0.12);
     padding-left: 75px;
     padding-right: 75px;
+    padding-top: 13px;
 }
 
 .dignities-title1 {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 28px; 
     font-weight: bold;
     font-style: normal;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.dignities-title3 {
+    font-size: 26px;
+    line-height: 28px; 
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dignities-title5 {
+    font-size: 20px;
+    line-height: 21px; 
+}
+
+.dignities-title2 {
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+}
+
+.dignities-title4 {
+    font-size: 26px;
+    line-height: 28px; 
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 9px;
 }
 
 .button3 {
@@ -541,11 +598,10 @@ html {
     border: none;
     text-transform: uppercase;
     padding-top: 21px;
-    padding-bottom: 13px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-bottom: 18px;
+    padding-left: 34px;
+    padding-right: 33px;
     border-radius: 5px;
-    margin-right: 15px;
 }
 
 .inner-header-list {
@@ -586,9 +642,12 @@ html {
     color: #000000;
     background-color: #F2F2F2;
     border: none;
-    padding-left: 33px;
-    width: 563px;
-    height: 60px;
+    padding-left: 8px;
+    width: 641px;
+    height: 54px;
+    margin-left: 9px;
+    padding-top: 9px;
+    padding-bottom: 5px;
 }
 
 .contacts-phone {
@@ -597,11 +656,11 @@ html {
     background-color: #F2F2F2;
     font-style: normal;
     font-weight: normal; 
-    font-size: 40px;
+    font-size: 42px;
     line-height: 40px;  
     margin: auto;
     text-decoration: none; 
-    margin-left: 117px;
+    margin-left: 138px;
 }
 
 .academy {
@@ -728,34 +787,20 @@ html {
     background-image: url(../img/index-background.jpg);
     display: flex;
     justify-content: center;
-    height: 480px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+    background-size: 100%;
+    height: 496px;
 }
 
-.vector_image11 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-content: center;
-    background-image: url(../img/welcome111.svg);
-    background-repeat: no-repeat;
-    width: 450px;
-    margin: 0;
-    padding: 0;
-    margin-top: 48px;
-    padding-right: 8px;
+.vector{
+    margin-top: 20px;
 }
 
 .navigation-link1 {
     font-size: 16px;
     line-height: 21px;
-}
-
-.vector_image111 {
-    background-image: url(../img/Vector.svg);
-    background-repeat: no-repeat;
-    width: 1200px;
-    height: 57px;
 }
 
 .navigation-icon {
@@ -776,7 +821,7 @@ html {
     position: relative;
     display: block;
     margin: 0;
-    right: 24px;
+    right: 21px;
     bottom: 11px;
     text-decoration: none;
 }
@@ -796,8 +841,8 @@ html {
 }
 
 .heart {
-    padding-left: 20px;
-    padding-right: 19px;
+    margin-left: 26px;
+    margin-right: 18px;
 }
 
 .home {
