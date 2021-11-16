@@ -15,29 +15,23 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     min-height: 100%;
-    min-width: 1336px;
     margin: 0;
-    padding: 0;
     font-family: "PT Sans";
     font-size: 18px; 
     line-height: 21px;
-    align-content: space-around;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 html {
     height: 100%;
-    width: 1336px;
-    margin-left: 43px;
 }
 
 .navigation {
     display: flex;
     width: 100%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-between;
     padding: 0;
 }
@@ -51,7 +45,7 @@ html {
 }
 
 .icon {
-    padding-top: 100px;
+    padding-top: 87px;
 }
 
 .dignities {
@@ -64,40 +58,45 @@ html {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 91px;
+    padding-top: 9px;
+    padding-bottom: 25px;
 }
 
 .navigation-item {
-    padding-left: 37px;
-    padding-right: 38px;
+    padding-left: 33px;
+    padding-right: 33px;
 }
 
 .footer-social-list {
     list-style-type: none;
     flex-wrap: wrap;
     display: flex;
-    margin-left: 30px;
+    margin-top: 32px;
+    padding-left: 72px;
 }
 .footer-social-list1 {
     list-style-type: none;
     flex-wrap: wrap;
     display: flex;
-    margin-right:91px;
-    margin-top: 23px;
+    margin-right:72px;
+    margin-top: 29px;
 }
+
+.telefone {
+    margin-top: 9px;
+    margin-left: 14px;
+}
+
 .navigation-list {
     margin: 0;
     padding: 0;
-    margin-top: 21px;
-    margin-left: 81px;
-    margin-bottom: 20px;
+    padding-left: 71px;
     display: flex;
-    max-width: 415px;
     list-style-type: none;
     flex-wrap: wrap;
     text-transform: capitalize;
     align-items: center;
-    margin-bottom: 18px;
+    padding-bottom: 15px;
 }
 
 .navigation-list1 {
@@ -107,15 +106,15 @@ html {
     list-style-type: none;
     flex-wrap: wrap;
     align-items: center;
-    margin-right: 80px;
-    margin-top: 4px;
+    padding-right: 72px;
+    padding-bottom: 15px;
 }
 
 .vector_image3 {
-    width: 165px;
-    height: 78px;
-    position: absolute;
-    right: 407px;
+    width: 148px;
+    height: 72px;
+    padding-right: 55px;
+    padding-top: 1px;
 }
 
 .page-footer {
@@ -123,21 +122,23 @@ html {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 100%;
+    width: 1290px;
     padding: 0;
+    width: 1200px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .text1 {
-    margin-top: 1px;
-    margin-bottom: 79px;
+    padding-bottom: 29px;
 }
 
 .main-container {
     flex-grow: 1;
-    width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
     padding: 0;
+    width: 1200px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .popularity {
@@ -169,13 +170,16 @@ html {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
-    height: 70px;
+    height: 66px;
+    width: 1200px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .navigation-link {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 26px;
     color: #333333;
     background: #FFFFFF;
@@ -201,18 +205,18 @@ html {
     align-content: center;
     border: none;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 97px;
 }
 
 .strong {
     width: 720px;
     height: 80px;
     font-weight: bold;
-    font-size: 33px;
-    line-height: 39px;
+    font-size: 30px;
+    line-height: 36px;
     margin: 0 auto;
-    margin-top: 69px;
-    margin-bottom: 36px;
+    padding-top: 49px;
+    padding-bottom: 26px;
 }
 
 .navigation-link:hover,
@@ -224,6 +228,11 @@ html {
 .button-link2:hover {
     color: #FFFFFF;
     background-color:  #68A2CA;
+}
+
+.button6:hover {
+    color: #68A2CA;
+    background-color:  #FFFFFF;
 }
 
 .button-link:hover,
@@ -251,6 +260,10 @@ html {
 }
 
 .button:active {
+    opacity: 0.3;
+}
+
+.button6:active {
     opacity: 0.3;
 }
 
@@ -302,6 +315,13 @@ html {
     border-radius: 10px;
 }
 
+.button6:focus {
+    outline: 3px solid #83B3D3;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;  
+}
+
 .contacts-phone:focus,
 .academy:focus {
     color:  #756257;
@@ -333,9 +353,10 @@ html {
 }
 
 .reasons {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 36px;
-    margin-bottom: 89px;
+    padding-bottom: 78px;
+    margin: 0;
 }
 
 .inner-header-title { 
@@ -350,32 +371,31 @@ html {
 }
 
 .dignities-title {
-    padding-top: 69px;
-    font-size: 27px;
-    line-height: 30px; 
-    font-weight: bold;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
+    padding-top: 53px;
+    font-size: 24px;
+    line-height: 28px; 
     padding-bottom: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .point_out {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 26px;
     width: 720px;
-    margin-bottom: 66px;
-    margin-right: 8px;
+    padding-bottom: 59px;
+    padding-right: 8px;
+    margin: 0;
 }
 
 .button-link1 {
     display: inline-block;
     border: none;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 36px;
     color: #FFFFFF;
     background-color: #756257;
-    padding: 16px 165px;
+    padding: 13px 149px;
     text-decoration: none; 
     border-radius: 10px;
     cursor: pointer;
@@ -383,23 +403,21 @@ html {
 } 
 
 .search1 {
-    margin-bottom: 50px;
+    margin-bottom: 47px;
 }
 
 .search_for_hotels-title {
     text-transform: uppercase;
-    font-size: 33px;
+    font-size: 30px;
     line-height: 36px;
-    margin-top: 82px;
-    margin-bottom: 13px;
+    padding-top: 37px;
 }
 
 .page-footer-title {
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
-    background-image: url(../img/background.jpg);
-    margin-top: 92px;
+    padding-top: 59px;
     text-transform: uppercase;
 }
 
@@ -409,27 +427,35 @@ html {
     flex-wrap: wrap;
     align-content: space-around;
     text-align: center;
-    margin-top: 16px;
+    padding-top: 22px;
 }
 
 .button {
+    padding-right: 42px;
+    padding-left: 26px;
+    padding-top: 8px;
+    padding-bottom: 7px;
     border-radius: 5px;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    padding-left: 45px;
-    padding-right: 47px;
     cursor: pointer;
+}
+
+.button6 {
+    cursor: pointer;
+}
+
+.facebook {
+    margin-left: 28px;
+    margin-right: 30px;
 }
 
 .button4 {
     border-radius: 15px;
-    font-size: 10px;
+    font-size: 13px;
     color: #FFFFFF;
     background-color:#7DB54F;
     margin: 0;
-    padding: 0;
     text-decoration: none; 
-    padding: 3px;
+    padding: 2px;
 }
 
 .amara {
@@ -443,17 +469,15 @@ html {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    grid-template-columns: repeat(3, 445px);
-    grid-template-rows: repeat(4, 428px);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .g1 {
     color: #FFFFFF;
     background: #83B3D3;
-    padding-top: 89px;
-    padding-left: 55px;
-    padding-right: 60px;
-    width: 336px;
+    padding-top: 74px;
+    width: 400px;
 }
 
 .g1_0 {
@@ -462,8 +486,8 @@ html {
 }
 
 .g1_1 {
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 20px;
     margin: 0;
     padding: 0;
     padding-top: 13px;
@@ -477,20 +501,11 @@ html {
 .g3 {
     color: #333333;
     background: rgba(131, 179, 211, 0.12);
-    padding-left: 33px;
-    padding-right: 30px;
-}
-
-.g4 {
-    padding-left: 75px;
-    padding-right: 75px;
 }
 
 .g5 {
     color: #333333;
     background: rgba(131, 179, 211, 0.12);
-    padding-left: 75px;
-    padding-right: 75px;
 }
 
 .g6 {
@@ -501,11 +516,7 @@ html {
 .g7 {
     color: #FFFFFF;
     background: #83B3D3;
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-top: 71px;
     width: 400px;
-    padding-top: 86px;
 }
 
 .g8 {
@@ -513,7 +524,7 @@ html {
     background: rgba(131, 179, 211, 0.12);
     padding-left: 76px;
     padding-right: 75px;
-    padding-top: 13px;
+    padding-top: 22px;
 }
 
 .g9 {
@@ -521,7 +532,7 @@ html {
     background: rgba(131, 179, 211, 0.2);
     padding-left: 75px;
     padding-right: 75px;
-    padding-top: 13px;
+    padding-top: 22px;
 }
 
 .g10 {
@@ -529,48 +540,62 @@ html {
     background: rgba(131, 179, 211, 0.12);
     padding-left: 75px;
     padding-right: 75px;
-    padding-top: 13px;
+    padding-top: 22px;
 }
 
 .dignities-title1 {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 28px; 
     font-weight: bold;
     font-style: normal;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 12px;
+    padding-bottom: 6px;
 }
 
 .dignities-title3 {
-    font-size: 26px;
-    line-height: 28px; 
+    font-size: 24px;
+    line-height: 27px; 
     font-weight: bold;
-    font-style: normal;
-    text-align: center;
     text-transform: uppercase;
+    margin: 0;
+    padding-top: 20px;
 }
 
 .dignities-title5 {
-    font-size: 20px;
-    line-height: 21px; 
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    padding-top: 7px; 
 }
 
 .dignities-title2 {
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 20px;
     margin: 0;
     padding: 0;
+    padding-top: 20px;
+}
+
+.dignities-title6 {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+    padding-top: 11px;
+}
+
+.dignities-title6_1 {
+    margin: 0;
 }
 
 .dignities-title4 {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 28px; 
     font-weight: bold;
-    font-style: normal;
-    text-align: center;
     text-transform: uppercase;
-    padding-bottom: 9px;
+    padding-bottom: 30px;
+    margin: 0;
+    padding-top: 98px;
 }
 
 .button3 {
@@ -583,7 +608,6 @@ html {
     font-size: 22px;
     line-height: 26px;
     color: #FFFFFF;
-    background-image: url(../img/background.jpg);
 }
 
 .button-link2 {
@@ -597,11 +621,8 @@ html {
     cursor: pointer;
     border: none;
     text-transform: uppercase;
-    padding-top: 21px;
-    padding-bottom: 18px;
-    padding-left: 34px;
-    padding-right: 33px;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
+    padding: 16px 22px;
 }
 
 .inner-header-list {
@@ -642,34 +663,23 @@ html {
     color: #000000;
     background-color: #F2F2F2;
     border: none;
-    padding-left: 8px;
-    width: 641px;
-    height: 54px;
-    margin-left: 9px;
-    padding-top: 9px;
-    padding-bottom: 5px;
+    border-radius: 7px 0 0 7px;
+    width: 579px;
+    height: 50px;
+    padding-left: 18px;
+    padding-top: 7px;
 }
 
 .contacts-phone {
     text-transform: uppercase;
     color: #000000;
-    background-color: #F2F2F2;
+    background-color: white;
     font-style: normal;
     font-weight: normal; 
-    font-size: 42px;
+    font-size: 38px;
     line-height: 40px;  
-    margin: auto;
+    margin-left: 36px;
     text-decoration: none; 
-    margin-left: 138px;
-}
-
-.academy {
-    background-image: url(../img/logo_htmlacademy.svg);
-    height: 35px;
-    width: 115px;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    display: block;
 }
 
 .inner-header,
@@ -780,22 +790,29 @@ html {
 .background {
     background-image: url(../img/background.jpg);
     text-align: center;
-    display: contents;
 }
 
 .vector_image1 {
     background-image: url(../img/index-background.jpg);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    padding-top: 45px;
     background-size: 100%;
     height: 496px;
+    background-repeat:no-repeat;
+}
+
+.sedona {
+    padding-top: 45px;
+    padding-bottom: 20px;
 }
 
 .vector {
-    margin-top: 20px;
+    background-image: url(../img/Vector.svg);
+    background-size: 100%;
+    width: 100%; 
+    height: 63px;
 }
 
 .navigation-link1 {
@@ -821,15 +838,15 @@ html {
     position: relative;
     display: block;
     margin: 0;
-    right: 21px;
-    bottom: 11px;
+    right: 20px;
+    bottom: 10px;
     text-decoration: none;
 }
 
 .navigation-way {
     position: relative;
     display: block;
-    top: 0;
+    top: 0px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -841,8 +858,8 @@ html {
 }
 
 .heart {
-    margin-left: 26px;
-    margin-right: 18px;
+    margin-left: 20px;
+    margin-right: 16px;
 }
 
 .home {
